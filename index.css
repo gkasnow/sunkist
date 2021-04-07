@@ -346,9 +346,9 @@ main .img4 {
 .section2 .more a,
 .section3 .more a {
     display: block;
-    width: 16.927vw;
-    height: 3.125vw;
-    margin: 3.854vw auto 0;
+    width: 36.927vw;
+    height: 9.125vw;
+    margin: 0 auto ;
     background-color: #fff;
     overflow: hidden;
 }
@@ -356,15 +356,15 @@ main .img4 {
 .section2 .more ul,
 .section3 .more ul {
     display: flex;
-    font-size: 1.042vw;
-    line-height: 3.125vw;
+    font-size: 4.042vw;
+    line-height: 9.125vw;
     color: #e5131a;
     font-weight: 400;
 }
 .section1 .more li,
 .section2 .more li,
 .section3 .more li {
-    margin-right: 1.146vw;
+    margin-right: 2.146vw;
 }
 /* 섹션2 라임  */
 .section2 .rotate {
@@ -791,6 +791,39 @@ footer .text p .span2 {
     }
     .section1 .rotate img, .section2 .rotate img, .section3 .rotate img {
         width: 45.208vw;
+    }
+
+    .section1 .more,
+    .section2 .more,
+    .section3 .more {
+        display: none; 
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%); 
+    }
+    .section1 .more a,
+    .section2 .more a,
+    .section3 .more a {
+        display: block;
+        width: 16.927vw;
+        height: 3.125vw;
+        margin: 3.854vw auto 0;
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .section1 .more ul,
+    .section2 .more ul,
+    .section3 .more ul {
+        display: flex;
+        font-size: 1.042vw;
+        line-height: 3.125vw;
+        color: #e5131a;
+        font-weight: 400;
+    }
+    .section1 .more li,
+    .section2 .more li,
+    .section3 .more li {
+        margin-right: 1.146vw;
     }
 
     /* 섹션2 라임  ------------ */
